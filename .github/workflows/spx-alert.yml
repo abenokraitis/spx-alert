@@ -18,4 +18,3 @@ jobs:
       - run: python spx_ma_alert.py
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
-          FORCE: "1"
